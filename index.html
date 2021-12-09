@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>FaC - Feature</title>
+</head>
+<body>
+    
+    <section id='feature-section'>
+        <h2 class='section-title'>A simple feature</h2>
+        <p>This is a color picker that allows the user change the page background color by choosing the start and the end color of a linear gradient.</p>
+        <p>Try it!</p>
+        <div id='color-picker'>
+            <div class='wrapper'>
+                <label for="gradient-start">Pick starting color:&nbsp; </label>
+                <input type="color" name="color-picker" id="gradient-start">
+            </div>
+            <div class='wrapper'>
+                <label for="gradient-end">Pick ending color:&nbsp; </label>
+                <input type="color" name="color-picker" id="gradient-end">
+            </div>
+    
+            <button id='btn'>Change Color</button>
+        </div>
+        
+    </section>
+
+    <script src="app.js"></script>
+</body>
+</html>
